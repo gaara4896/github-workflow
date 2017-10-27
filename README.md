@@ -12,7 +12,7 @@
   
   `git init`
 
-#### 1. Create a README.md and edit it
+#### 2. Create a README.md and edit it
 
   _For Linux/Mac_
 
@@ -22,7 +22,7 @@
   
   `echo "# [YourRepoName]" >> README.md`
   
-#### 2. Create .gitignore to ignore files that should not be included in repository, eg .class or .bin
+#### 3. Create .gitignore to ignore files that should not be included in repository, eg .class or .bin
 
   _For Linux/Mac_
   
@@ -32,9 +32,9 @@
   
   `notepad .gitignore`
 
-#### 3. Create an empty repository on GitHub. *Important:* Uncheck _Initialize this repository with a README_
+#### 4. Create an empty repository on GitHub. *Important:* Uncheck _Initialize this repository with a README_
 
-#### 4. Add remote and initial commit
+#### 5. Add remote and initial commit
 
   _For Linux/Mac/Windows_
   
