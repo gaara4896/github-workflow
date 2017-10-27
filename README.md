@@ -16,11 +16,11 @@
 
   _For Linux/Mac_
 
-  `echo "# [YourRepoName]" >> README.md`
+  `echo [# YourRepoName] >> README.md`
   
   _For Windows_
   
-  `echo "# [YourRepoName]" >> README.md`
+  `echo [# YourRepoName] >> README.md`
   
 #### 3. Create .gitignore to ignore files that should not be included in repository, eg .class or .bin
 
