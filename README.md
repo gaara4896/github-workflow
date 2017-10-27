@@ -2,27 +2,11 @@
 
 ### Initialize repository
 
-##### Windows
+*_If you are using Windows, download Git [here](https://git-scm.com/downloads)_*
 
-download Git [here](https://git-scm.com/downloads)*
+*_If you are using macOS, Git is already included_*
 
-##### Linux
-
-- Deb based
-
-   `sudo apt-get install git`
-
-- RPM Family
-
-   `sudo yum install git`
-
-- Fedora
-
-   `sudo dnf install git`
-
-- Arch
-
-   `sudo pacman -S git`
+*_If you are using Ubuntu/Debian, use `sudo apt install git`_*
 
 #### 1. Initialize your local repository
 
@@ -32,17 +16,13 @@ download Git [here](https://git-scm.com/downloads)*
   
   `git init`
 
-#### 2. Create a README.md and edit it
+#### 2. Create a README.md and briefly describe your project
 
-  _For Linux/Mac_
+  _For Linux/Mac/Windows_
 
   `echo [# YourRepoName] >> README.md`
   
-  _For Windows_
-  
-  `echo [# YourRepoName] >> README.md`
-  
-#### 3. Create .gitignore to ignore files that should not be included in repository, eg .class or .bin
+#### 3. Create .gitignore and add files that should not be included in the repository (eg. node_modules/ or .gradle/)
 
   _For Linux/Mac_
   
@@ -64,36 +44,32 @@ download Git [here](https://git-scm.com/downloads)*
 
   `git commit -m "Initial Commit"`
 
-  ### To Contribute
+---------
 
-1. To contribute, please make a fork on your repository main line
+### To Contribute
 
-1. Clone your github repository
+1. Clone the GitHub repository to your computer
 
-  `git clone https://github.com/yourid/reponame`
+  `git clone https://github.com/[github id]/[repository name]`
 
-1. Create a new branch to work and checkout
+1. Create a new branch and checkout
 
-  `git checkout -B branch-name`
+  `git checkout -B [branch-name]`
 
-1. Commit your new file into branch
+1. Commit your edits into your branch
 
   `git add -A`
 
-  `git commit -m "Commit Message"`
+  `git commit -m "[Commit Message]"`
 
 1. Push the update into your Github repository
-
-  `git push -u origin branch-name`
-
-  or
   
   `git push`
 
-1. Make a pull request to master branch and wait for everyone consent
+1. Make a pull request to master branch on GitHub
 
-1. Resolve conflict if any
+1. Resolve any conflicts
 
-1. (Optional) Delete branch if necessary
+1. (Optional) Delete your branch
 
-  `git branch -d branch-name`
+  `git branch -d [branch-name]`
